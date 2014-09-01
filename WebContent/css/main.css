@@ -1,0 +1,133 @@
+/* main css */
+input {
+	border: 0;
+	padding: 0;
+}
+b,strong {
+	font-weight: bold;
+}
+a:-webkit-any-link {
+	color: -webkit-link;
+	text-decoration: underline;
+	cursor: auto;
+}
+a:link,a:visited,a:hover,a:active{
+	color: #00c;
+}
+/* 首页 */
+.wrapper {
+	width: 700px;	
+	margin: 0 auto;
+}
+.logo {
+	text-align: center;
+	margin-bottom: 30px;
+}
+.content {
+	margin-top: 100px;
+}
+#nav {
+	height: 19px;
+	font-size: 16px;
+	margin: 0 0 4px;
+	text-align: left;
+	text-indent: 100px;
+}
+#nav a, #nav b, .btn, #lk {
+	font-size: 14px;
+}
+#focus-area {
+	padding-left: 90px;
+	text-align: left;
+}
+.s_ipt_wr {
+	width: 418px;
+	height: 30px;
+	display: inline-block;
+	margin-right: 5px;
+	background: url(../img/i-1.0.0.png) no-repeat -304px 0;
+	border: 1px solid #b6b6b6;
+	border-color: #9a9a9a #cdcdcd #cdcdcd #9a9a9a;
+	vertical-align: top;
+}
+.s_ipt {
+	width: 405px;
+	height: 22px;
+	font: 16px/22px arial;
+	margin: 3px 0 0 7px;
+	padding: 2px;
+	background: #fff;
+	outline: 0;
+	-webkit-appearance: none;
+}
+.s_btn_wr {
+	width: 97px;
+	height: 34px;
+	display: inline-block;
+	background: url(../img/i-1.0.0.png) no-repeat -202px 0;
+	z-index: 0;
+	vertical-align: top;
+}
+.s_btn {
+	width: 95px;
+	height: 32px;
+	padding-top: 2px	9;
+	font-size: 14px;
+	background: #ddd url(../img/i-1.0.0.png);
+	cursor: pointer;
+}
+.s_btn_h {
+	background-position: -100px 0;
+}
+.footer {
+	position: absolute;
+	width: 700px;	
+	height: 50px;
+	bottom: 20px;
+}
+.info {
+	text-align: center;
+}
+#nav a {
+    text-decoration: none;
+    color: black;
+}
+#nav .current {
+    color:red;
+}
+
+/* 搜索结果页 */
+.result {
+	margin: 20px;
+}
+.sub_search {
+	width: 850px;
+}
+.sub_top {
+	margin-bottom: 10px;
+}
+.sub_logo {
+	margin-right: 20px;
+}
+.sub_nav {
+	font-size: 14px;
+	margin-top: 20px;
+}
+.sub_footer {
+	padding-top: 50px;
+}
+.sub_list {
+	width: 600px;
+	margin-top: 30px;
+}
+.item .title {
+	font-size: 14px;
+	font-weight: bold;
+}
+.item .pubtime {
+	color: #666;
+}
+.item .summary {
+	margin: 10px 0 30px 0;
+	line-height: 20px;
+}
